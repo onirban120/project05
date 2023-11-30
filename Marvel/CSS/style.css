@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700;900&family=Roboto+Slab:wght@300;400;600;800;900&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: ; */
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 15px;
+}
+
+/* font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+#navigation ul li a:hover {
+  color: #1abb9c;
+}
+
+.navi {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 44px 10px;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.logo {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 800;
+  background-color: #fff;
+}
+
+
+/* <!-- bannar part CSS start  --> */
+
+#banner {
+  background: url(../images/bg-big.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner_overlay {
+  padding: 150px 0;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.banner_content {
+  text-align: center;
+  color: azure;
+  padding: 90px 0;
+}
+
+.banner_content h4 {
+  font-size: 32px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 500;
+  color: rgb(139, 139, 139); 
+  padding-bottom: 50px;
+}
+
+.banner_content h1 {
+  font-size: 50px;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700; 
+  padding-bottom: 20px; 
+  color: rgb(207, 205, 205);
+}
+
+
+.banner_content a {
+  padding: 10px 34px;
+  border: 2px solid white;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  transition: all linear .3s;
+  font-weight: 500; 
+}
+
+.banner_content a:hover {
+  background-color: #0872b9;
+  border: 2px solid #0872b9;
+  transition: all linear .3s;
+}
+/* <!-- bannar part CSS End   --> */
+
+
+/* content part CSS start  */
+
+#content {
+  text-align: center;
+  margin: 55px 0;
+}
+
+.con-text h5 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  padding-top: 23px;
+  font-weight: 700;
+}
+
+.line {
+  height: 3px;
+  width: 100%;
+  background-color: rgb(196, 196, 196);
+  margin: -30px 0 1px;
+  border-radius: 5px;
+
+}
+/* content part css End */
+
+/* Gallary part css start here  */
+
+#gallary {
+  margin: 60px;
+}
+
+.heading h5 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  padding-top: 23px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.some-con h5 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
+  padding-top: 23px;
+  font-weight: 700;
+}
+
+.some-con h6 {
+  font-family: 'Roboto Slab', serif;
+  padding-bottom: 15px;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgb(139, 139, 139);
+}
+
+.some-con p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.lang {
+  margin-top: 45px;
+}
+
+.quat {
+  height: 240px;
+  background-color: rgb(156, 156, 156);
+}
+
+.QUOTE{
+ font-size: 10px;
+ text-align: center;
+ padding-top: 70px;
+ color:#c9c9c9 ;
+}
+
+.quot-icon a li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.quot-icon {
+  text-align: center;
+  font-size: 50px;
+  color: #a0a0a0;
+  margin-top: 45px;
+}
+
+.quont-text {
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  padding-top: 23px;
+  font-weight: 700;
+  color: #c9c9c9;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+
+/* Gallary part css End here */
+
+/* footer part CSS start */
+footer {
+  background: url(../Images/bg-pic.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.sm-text {
+  color: aliceblue;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.sm-text h5 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 29px;
+  padding-top: 23px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #a0a0a0;
+}
+
+.sm-text p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 19px;
+  padding-top: 23px;
+  color: #a0a0a0;
+}
+
+.map {
+  color: #a89574;
+  height: 40px;
+}
+
+.pft {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 19px;
+  color: #a0a0a0;
+}
+
+.ends {
+  margin: 20px 0;
+  background-color: #373737;
+}
+
+.copyright {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 15px;
+  padding-top: 23px;
+  color: #a0a0a0;
+  padding-bottom: 15px;
+}
+/* footer part CSS End  */
